@@ -1,0 +1,60 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed.
+ *
+ * If you are unfamiliar with LESS, you can read more about it here:
+ * http://www.lesscss.org
+ */
+
+ @font-size: 14px;
+ html, body, .tree-view, .tab-bar .tab {
+   font-size: @font-size;
+   font-family: 'Hack'
+ }
+ 
+.tree-view {
+  padding: 0;
+  li.project-root {
+    border-bottom: 1px solid gray;
+    padding: 10px 0 10px 10px !important;
+    &.selected:before, &.selected {
+      background: rgb(25, 25, 25);
+    }
+  }
+  ol {
+    &:last-child{
+      border-bottom : 0;
+    }
+  }
+  ol li {
+    padding-left: 0px !important;
+    &.selected {
+      color: rgb(219, 219, 219) !important;
+      &:before { 
+        background: rgba(255, 255, 255, 0.1) !important;
+      }
+    }
+    li {
+      padding-left: 20px !important;
+    }
+    ol {
+      
+      border-bottom: 1px solid rgba(120, 120, 120, 0.3) !important;
+      border-left: 1px solid rgba(120, 120, 120, 0.2);
+    }
+  }
+}
+
+// style the background and foreground colors on the atom-text-editor-element
+// itself
+atom-text-editor {
+  background: rgb(21, 36, 42)
+}
+
+// To style other content in the text editor's shadow DOM, use the ::shadow
+// expression
+atom-text-editor::shadow .cursor {
+
+}
