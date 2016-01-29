@@ -1,0 +1,12 @@
+/** es6fiddle.net, codepen.io, jsfiddle.net **/
+CodeMirror cm-s-default,
+/** medium.com **/
+.gist,
+/** github.com **/
+.blob-code-inner,
+/** medium.com, github.com **/
+pre {
+		font-family: "Fira Code", Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
+		text-rendering: optimizeLegibility !important;
+	}
+}
