@@ -1,3 +1,11 @@
+@font-face {
+	font-family: FiraCode;
+	font-style: normal;
+	font-weight: normal;
+	src: url("https://cdn.rawgit.com/tonsky/FiraCode/master/FiraCode-Regular.otf") format("opentype");
+}
+
+
 /** es6fiddle.net, codepen.io, jsfiddle.net **/
 CodeMirror cm-s-default,
 /** medium.com **/
