@@ -1,23 +1,20 @@
 @font-face {
-  font-family: "Fira Code";
-  font-style: normal;
-  font-weight: normal;
-  src: url("https://cdn.rawgit.com/tonsky/FiraCode/master/FiraCode-Regular.otf") format("opentype");
+	font-family: FiraCode;
+	font-style: normal;
+	font-weight: normal;
+	src: url("https://cdn.rawgit.com/tonsky/FiraCode/master/FiraCode-Regular.otf") format("opentype");
 }
 
 
 /** es6fiddle.net, codepen.io, jsfiddle.net **/
-CodeMirror cm-s-default,
+.CodeMirror,
 /** medium.com **/
 .gist,
 /** github.com **/
 .blob-code-inner,
-/** gitlab **/
-code,
 /** medium.com, github.com **/
 pre {
-    font-family: "Fira Code", Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
-    text-rendering: optimizeLegibility !important;
-}
-/** Somehow on Safari you also need another closing bracket **/
+		font-family: "Fira Code", Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
+		text-rendering: optimizeLegibility !important;
+	}
 }
