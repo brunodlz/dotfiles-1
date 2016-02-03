@@ -14,7 +14,6 @@
 .blob-code-inner,
 /** medium.com, github.com **/
 pre {
-		font-family: "Fira Code", Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
-		text-rendering: optimizeLegibility !important;
-	}
+	font-family: "Fira Code", Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
+	text-rendering: optimizeLegibility !important;
 }
