@@ -21,7 +21,7 @@
     "maxAttrsOnTag":5,
     "firstAttributeOnSameLine":true,
     "alignWithFirstAttribute":false,
-    "spaceInJSXExpressionContainers":"",
+    "spaceInJSXExpressionContainers":""
   },
   "collapseObjects":{
     "ObjectExpression":{
