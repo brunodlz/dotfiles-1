@@ -1,15 +1,11 @@
 {
-  "extends": "eslint-config-rackt",
-  "env": {
-    "browser": true,
-    "mocha": true,
-    "node": true
-    },
+  "extends": "airbnb",
   "rules": {
-    "react/jsx-uses-react": 1,
-    "react/jsx-no-undef": 2,
-    "react/wrap-multilines": 2,
-    "no-console": 1
-    },
-  "plugins": ["react"]
+    "semi": [ 2, "never" ],
+    "object-curly-newline": ["error" ],
+    "object-property-newline": ["error", {
+      "allowMultiplePropertiesPerLine": false
+    }],
+    "comma-dangle": [ 2, "never" ]
+  }
 }
