@@ -1,11 +1,18 @@
 {
-  "extends": "airbnb",
+  "extends": [ "airbnb" ],
+  "parser": "babel-eslint",
+  "plugins": [
+    "flowtype"
+  ],
   "rules": {
     "semi": [ 2, "never" ],
     "object-curly-newline": ["error" ],
     "object-property-newline": ["error", {
       "allowMultiplePropertiesPerLine": false
     }],
-    "comma-dangle": [ 2, "never" ]
+    "comma-dangle": [ 2, "never" ],
+    "react/jsx-filename-extension": [2, {
+      "extensions": [".js", ".jsx"]
+    }],
   }
 }
