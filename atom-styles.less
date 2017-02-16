@@ -12,7 +12,7 @@ atom-text-editor::shadow .string.quoted,
 atom-text-editor::shadow .string.regexp {
   -webkit-font-feature-settings: "liga" off, "calt" off;
 }
- @font-size: 14px;
+ @font-size: 15px;
  html, body, .tree-view, .tab-bar .tab {
    font-size: @font-size;
    font-family: 'Fira Code';
@@ -35,18 +35,27 @@ atom-text-editor::shadow .string.regexp {
   ol li {
     padding-left: 0px !important;
     &.selected {
-      color: rgb(219, 219, 219) !important;
+      color: rgb(203, 177, 74) !important;
       &:before {
-        background: rgba(255, 255, 255, 0.1) !important;
+        background: rgba(255, 0, 0, 0.3) !important;
       }
     }
+
+    &.list-item.status-modified {
+      color: rgb(255, 101, 96) !important;
+    }
+
+    &.list-item.status-added {
+      color: white;
+      background: rgba(0, 255, 0, 0.2) !important;
+    }
+
     li {
-      padding-left: 20px !important;
+      padding-left: 10px !important;
     }
     ol {
-
-      border-bottom: 1px solid rgba(120, 120, 120, 0.3) !important;
-      border-left: 1px solid rgba(120, 120, 120, 0.2);
+      border-bottom: 2px solid rgba(120, 120, 120, 0.4) !important;
+      border-left: 1px solid rgba(120, 120, 120, 0.4);
     }
   }
 }
@@ -54,7 +63,8 @@ atom-text-editor::shadow .string.regexp {
 // style the background and foreground colors on the atom-text-editor-element
 // itself
 atom-text-editor {
-  background: rgb(21, 36, 42)
+  background: rgb(21, 36, 42);
+  font-size: 17px
 }
 
 // To style other content in the text editor's shadow DOM, use the ::shadow
