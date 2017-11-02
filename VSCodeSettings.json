@@ -1,0 +1,31 @@
+{
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 10000,
+  "editor.fontSize": 15,
+  "editor.fontFamily": "Fira Code",
+  "editor.tabSize": 2,
+  "editor.cursorStyle": "line",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.wordWrap": "off",
+  "editor.smoothScrolling": false,
+  "editor.minimap.enabled": false,
+  "editor.minimap.showSlider": "mouseover",
+  "editor.fontLigatures": true,
+  "window.zoomLevel": 0,
+  "workbench.editor.showTabs": false,
+  "workbench.editor.labelFormat": "short",
+  "workbench.editor.showIcons": true,
+  "workbench.fontAliasing": "default",
+  "workbench.startupEditor": "none",
+  "typescript.validate.enable": false,
+  "typescript.format.enable": false,
+  "workbench.colorTheme": "One Dark Pro",
+  "javascript.format.enable": false,
+  "typescript.tsc.autoDetect": "off",
+  "editor.formatOnSave": true,
+  "javascript.validate.enable": false,
+  "markdown.styles": [
+    "/Users/Grindelwald/Code/_github-markdown.css"
+  ],
+  "git.enableSmartCommit": true
+}
