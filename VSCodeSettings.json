@@ -19,13 +19,11 @@
   "workbench.startupEditor": "none",
   "typescript.validate.enable": false,
   "typescript.format.enable": false,
-  "workbench.colorTheme": "One Dark Pro",
+  "workbench.colorTheme": "City Lights",
   "javascript.format.enable": false,
   "typescript.tsc.autoDetect": "off",
   "editor.formatOnSave": true,
   "javascript.validate.enable": false,
-  "markdown.styles": [
-    "/Users/Grindelwald/Code/_github-markdown.css"
-  ],
+  "markdown.styles": ["/Users/Grindelwald/Code/_github-markdown.css"],
   "git.enableSmartCommit": true
 }
